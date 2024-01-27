@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+  </head>
+  <body>
+    <img class="bild" src="IMG_2373.PNG">
+    <div class="container">
+        <a class="link" title="ein sehr schönes bild" href="http://127.0.0.1:5500/Unterseite.html">Dot-Art</a>
+        <a class="link" title="hier weden neue sachen getestet" href="http://127.0.0.1:5500/testseite.html">Testseite</a>
+    </div>
+    <a  href="http://127.0.0.1:5500/Start.html" title="Hier geht es immer zurück auf die Startseite">
+        <img alt="alternative text for the liked image" src="logo.jpg" class=logo />
+    </a>
+    <hr style="border-width: 2px;">
+    <table class="tabelle">
+        <tr>
+            <td>
+                <h1 style="font-family: Arial, Helvetica, sans-serif;">Entdecken</h1>
+            </td>
+            <td>
+                <h1 style="font-family: Arial, Helvetica, sans-serif;">Comunity</h1>
+            </td>
+            <td>
+                <h1 style="font-family: Arial, Helvetica, sans-serif;">Über uns</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="inhalt" title="Die Home seite" href="http://127.0.0.1:5500/Start.html">Home</a>
+            </td>
+            <td class="inhalt">
+                Blablabla
+            </td>
+            <td class="inhalt">
+                Impressum
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="inhalt" title="ein sehr schönes bild" href="http://127.0.0.1:5500/Unterseite.html">Dot-Art</a>
+            </td>
+            <td>
+                
+            </td>
+            <td class="inhalt">
+                FAQ
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class="inhalt" title="hier weden neue sachen getestet" href="http://127.0.0.1:5500/testseite.html">Testseite</a>
+            </td>
+            <td>
+                
+            </td>
+            <td class="inhalt">
+                API
+            </td>
+        </tr>
+    </table>
+
+
+    
+  </body>
+  <style>
+    
+    /*Für das hintergrundbild*/
+.inhalt:hover{
+    text-decoration: underline;
+}
+
+.inhalt{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.tabelle{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bild{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    
+
+}
+
+.logo{
+    position:absolute;
+    left: 40px;
+    top: 40px;
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-width: 5px; 
+    border-color: rgb(182, 2, 2);
+    
+}
+
+.logo:hover{
+    border-color: rgb(105, 105, 105);
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    position:absolute;
+    right: 32px;
+    top: 16px;
+    font-size: 24px;
+}
+
+.link{
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.link:hover{
+    color: black;
+}
+
+</style>
+  
+</html>
+
